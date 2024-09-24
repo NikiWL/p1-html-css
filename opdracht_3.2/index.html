@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boekingsformulier</title>
+</head>
+<body>
+
+<label for="title">Boekingsformulier</label>
+<br><br>
+
+    <label for="firstname">Voornaam</label>
+<input type="text" name"firstname" pattern="[a-Az-Z]"
+<br><br>
+
+<label for="surname">Achternaam</label>
+<input type="text" name"surname" pattern="[a-Az-Z]"
+
+<br><br>
+
+<label for="gender">Geslacht</label>
+<input type="radio" name="gender" value="man"> Man
+<input type="radio" name="gender" value="Vrouw"> Vrouw
+<br><br>
+
+<label for="street">Straatnaam</label>
+<input type="text" name"street" pattern="[a-Az-Z]"
+<br><br>
+
+<label for="hnumber">Huisnummer</label>
+<input type="number" name"hnumber"
+<br><br>
+
+<label for="postcode">Postcode</label>
+<input type="text" name"postcode"
+<br><br>
+
+<label for="city">Stad</label>
+<input type="text" name"city" pattern="[a-Az-Z]"
+<br><br>
+
+<label for="country">Land</label>
+<input type="text" name"country" pattern="[a-Az-Z]"
+<br><br>
+
+<label for="land">Kies een land</label>
+
+  <select name="land" id="land">
+      <option value="select">Kies hier</option>
+      <option value="spanje">Spanje</option>
+      <option value="turkije">Turkije</option>
+      <option value="frankrijk">Frankrijk</option>
+      <option value="griekenland">Griekenland</option>
+    </select>
+    <br><br>
+
+<form action="index.html">
+
+    <label for="datemax">Datum van vertrek</label>
+    <input type="date" id="datemax" name="datemax" max="2026-12-31"><br><br>
+    
+    <label for="datemin">Datum van terugkomst</label>
+    <input type="date" id="datemin" name="datemin" min="2024-09-18"><br><br>
+    
+    <label for="bsn">BSN-nummer</label>
+    <input type="number" id="bsn" name="bsn" minlength="1" maxlength="9"><br><br>
+
+  </form>
+
+<label for="email">Email</label>
+<input type="text" name"email"
+<br><br>
+
+<label for="password">Wachtwoord</label>
+<input type="password" name"password"
+<br><br>
+
+<label for="people">Aantal reisgenoten</label>
+<input type="number" name"people"
+<br><br>
+
+<form action="index.html" method="post">
+   
+    <input type="submit" value="Boek Nu">
+    </form>
+
+</body>
+</html>
