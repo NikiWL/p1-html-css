@@ -35,5 +35,23 @@ nav a {
   text-decoration: none;
 }
 nav img {
+  align-items: center;
   width: 5vw;
 }
+
+h1 {
+text-align: center;
+justify-content: space-evenly;
+}
+
+h2 {
+text-align: end;
+}
+
+p {
+  text-align: end;
+}
+
+
+
+
